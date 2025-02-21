@@ -147,7 +147,7 @@ function addTask(containerId, taskText, taskTime) {
   setReminder(taskText, taskTime);
 }
 
-// Function to move a task to the "Done" container
+// To move a task to the "Done" container
 function moveToDone(button) {
   const li = button.parentElement;
   const doneContainer = document.getElementById("done");
@@ -164,5 +164,3 @@ function removeTask(button) {
   const li = button.parentElement;
   li.remove();
 }
-
-// Rest of your JavaScript code (setReminder, addDragAndDrop, etc.) remains the same
